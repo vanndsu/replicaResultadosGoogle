@@ -1,0 +1,162 @@
+body{
+    background-color: #424242;
+    margin: 0px;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 69px;
+    background-color: #424242;   
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    flex-direction: column;
+    
+}
+
+.imge img{
+    border-radius: 50%;
+    
+}
+.imge{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+.menu{
+    display: flex;
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.menu:hover{
+    background-color: #5e5d5d;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.logogoogle{
+    display: flex; align-items: center; margin-left: 40px;
+}
+
+.inputi{
+    display: flex;
+    width: 760px;
+    height: 44px;
+    background-color: rgb(255, 255, 255);    
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.pesq{
+    margin-left: 30px;
+}
+.pesqui{
+    height: 44px;
+    width: 400px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.gugli{
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    align-items: center;
+ 
+}
+.segunda_parte{
+    display: flex;
+}
+.parte_superior{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+}
+a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #acaaaa;    
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+.active{
+    border-bottom: 3px solid rgb(130, 130, 240);
+}
+.icons{
+    display: flex;
+    
+}
+.icons div{
+    margin-right: 20px;
+}
+.parte_inferior{
+    box-shadow: 0px 1px 1px rgb(10, 10, 10, 0.3);
+}
+main{
+    margin-top: 75px;
+    display: flex;
+    justify-content: flex-start;
+}
+main label{
+    color: #acaaaa;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    align-self: flex-start;
+    margin-left: 200px;
+
+}
+.resultados{
+    
+    align-self: flex-start;
+    margin-left: 205px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    font-size: 20px;
+    color: #8ab4f8;
+}
+h2{
+    font-size: 13px;
+    color: #bdc1c6
+}
+h3{
+    font-size: 14px;
+    color: #bdc1c6
+}
